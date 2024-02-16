@@ -1,77 +1,35 @@
-# Nuxt 3 Minimal Starter
+# Nuxt App
 
-Иконки - https://icon-sets.iconify.design/
+Демонстрационное приложение, разработанное с использованием Nuxt.js, Vue 3, и Tailwind CSS. Приложение включает в себя три страницы, реализованные согласно [заданным требованиям](https://github.com/tapigo-team/frontend_test_task?tab=readme-ov-file).
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Демо
 
-## Setup
+Приложение доступно по ссылке: [https://mellifluous-squirrel-e69569.netlify.app/](https://mellifluous-squirrel-e69569.netlify.app/)
 
-Make sure to install the dependencies:
+## Запуск проекта
+
+Для запуска проекта на локальной машине выполните следующие команды:
 
 ```bash
-# npm
+# Установка зависимостей
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Запуск сервера разработки
 npm run dev
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Сборка для продакшена и запуск сервера
 npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Задача проекта
+
+- Реализовать три страницы с использованием компонентов и шаблонизатора Nuxt:
+    1. Форма с валидацией.
+    2. Адаптивный макет.
+    3. Страница статьи с использованием ванильного CSS и Tailwind CSS.
+
+## Ссылки на дизайн и статью
+
+- [Адаптивный макет](https://www.figma.com/file/xr4QN6eE3LmeyukF7VhwAF/test-EX?type=design&node-id=0-1&mode=design&t=Rc0jZEJ9lhpWHBSP-0)
+- [Пример статьи](https://journal.tapigo.ru/articles/benua-ideolog-novoi-xudozestvennoi-epoxi)
